@@ -20,6 +20,9 @@ public class Main {
 			equipos[i] = chiki.getEquipos().get(i).getNombre();
 		}
 		
+		
+		JOptionPane.showConfirmDialog(null, equipos);
+		
 		do {
 			
 		String seleccion = (String) JOptionPane.showInputDialog(null, "Posición", null, 0, null, equipos, equipos[0]);
